@@ -1,0 +1,34 @@
+{
+  "name": "react-native-ota",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:dev": "eas build --profile development",
+    "build:staging": "eas build --profile staging",
+    "build:prod": "eas build --profile production",
+    "publish:dev": "eas submit --profile production",
+    "publish:prod": "eas submit --profile production"
+  },
+  "dependencies": {
+    "expo": "~48.0.11",
+    "expo-dev-client": "~2.2.1",
+    "expo-status-bar": "~1.4.4",
+    "expo-updates": "~0.16.4",
+    "react": "18.2.0",
+    "react-native": "0.71.6",
+    "react-native-progress": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true,
+  "keywords": [
+    "expo ota update",
+    "ota update using expo",
+    "expo over the air update"
+  ]
+}

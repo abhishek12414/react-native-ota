@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 3.7.2"
+  },
+  "build": {
+    "development": {
+      "channel": "development",
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "staging": {
+      "channel": "staging",
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "production": {
+      "channel": "production",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
